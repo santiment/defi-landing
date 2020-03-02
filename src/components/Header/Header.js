@@ -4,6 +4,7 @@ import { tr } from '../../utils/translate'
 import styles from './Header.module.scss'
 import AccountBtn from '../AccountBtn/AccountBtn'
 import santimentSvg from '../../images/santiment.svg'
+import logo from './EthCC_Logo.svg'
 
 const Header = ({ isAccountPage, intl }) => {
   return (
@@ -13,7 +14,7 @@ const Header = ({ isAccountPage, intl }) => {
           <Link className={styles.logo} to='/'>
             <img alt='Santiment' src={santimentSvg} />
           </Link>
-          <h2 className={styles.devcon}>DEVCON5</h2>
+          <img src={logo} alt='EthCC' />
         </div>
         <div className={styles.right}>
           <Link className={styles.link} to='/#products'>

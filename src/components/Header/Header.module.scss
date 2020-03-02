@@ -40,16 +40,6 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 40px;
-  background: linear-gradient(
-    90deg,
-    #faa39f -14.43%,
-    #ffb297 22.1%,
-    #c7e977 50.15%,
-    #83dffa 76.25%,
-    #9eafeb 103%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-left: 18px;
 }
 
@@ -62,4 +52,8 @@
   @include responsive('tablet', 'phone', 'phone-xs') {
     display: none;
   }
+}
+
+.logo {
+  margin-right: 13px;
 }

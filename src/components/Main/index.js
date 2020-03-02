@@ -37,25 +37,26 @@ export default injectIntl(({ intl }) => (
     <div className={styles.top}>
       <Tooltip {...maker} />
       <Tooltip {...eth} />
-      <h1 className={styles.title}>CRYPTO. SMARTER.</h1>
-      <h3 className={styles.subtitle}>{tr('main.text', "Stable, reliable, all-inclusive source of targeted intelligence for Ethereum and 700+ ERC-20 tokens. Get instant free access to all Santiment products for 2 weeks.")}</h3>
+      <h1 className={styles.title}>Join our mission
+</h1>
+      <h3 className={styles.subtitle}>Help us decentralize crypto market intelligence</h3>
       <NotificationsContext.Consumer>
         {({ add: addNot }) => (
           <Mutation mutation={EMAIL_LOGIN_MUTATION}>
-            {(sendCoupon, { loading }) => (
+            {(start, { loading }) => (
               <form
                 className={styles.form}
                 onSubmit={e => {
                   e.preventDefault()
                   submitEmailEvent()
-                  sendCoupon({
+                  start({
                     variables: {
                       email: e.currentTarget.email.value,
                     },
                   }).then(() => {
                     addNot({
                       type: 'success',
-                      title: 'Trial link was sent to your email!',
+                      title: 'Confirmation letter was sent to your email!',
                     })
                   })
                 }}
@@ -74,7 +75,7 @@ export default injectIntl(({ intl }) => (
                   accent='positive'
                   isLoading={loading}
                 >
-                  {tr('discount.btn', "Get free trial")}
+                  Get started
                 </Button>
               </form>
             )}
