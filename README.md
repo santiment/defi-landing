@@ -2,7 +2,7 @@
 
 ![](./src/images/thumbnail.png)
 
-This is the source for [`DEVCON Landing Page`](https://ethcc.santiment.net).
+This is the source for [`EthCC Landing Page`](https://ethcc.santiment.net).
 
 ## Running locally
 
