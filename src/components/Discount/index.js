@@ -14,7 +14,7 @@ export default injectIntl(({ intl }) => (
         decentralized platform for crypto market intelligence, sign up below to
         learn more.
       </h4>
-      <div class="pipedriveWebForms" data-pd-webforms="https://pipedrivewebforms.com/form/64fb993cbe5dadded638d587c7e8645b4144829"><script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script></div>
+      <div class="pipedriveWebForms" className={styles.form} data-pd-webforms="https://pipedrivewebforms.com/form/64fb993cbe5dadded638d587c7e8645b4144829"><script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script></div>
     </div>
   </section>
 ))
