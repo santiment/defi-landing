@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `EthCC | Santiment`,
-    description: `Help us decentralize crypto market intelligence`,
+    description: `Generating market alpha should be accessible to everyone. Help us build the first decentralized platform for crypto market intelligence!`,
     author: `Santiment Team`,
     siteUrl: 'https://ethcc.santiment.net',
   },
