@@ -86,39 +86,11 @@ export default injectIntl(({ intl }) => (
     <div className={styles.bottom}>
       <div id='products' className={styles.infos}>
         <div className={styles.info}>
-          <h4 className={styles.info__title}>{tr('info.buidl', "Culture of BUIDLers")}</h4>
-          <div className={styles.info__text}>{tr('info.buidl.text', "Santiment is for blockchain developers and software engineers who want high quality raw data about cryptocurrency markets. Help us change the world by building awesome crypto apps.")}</div>
+          <div className={styles.info__text}>At Santiment, we have created an <b>all-in-one platform</b> for analyzing - and reacting - to the behavior of major crypto stakeholders, including whales, miners, the crypto community and more.</div>
         </div>
         <div className={styles.info}>
-          <h4 className={styles.info__title}>{tr('info.products', "Products")}</h4>
           <div className={styles.info__text}>
-            {tr('info.products.text', "See the growth of Ethereum, ERC-20 tokens... and even other major blockchains like BTC and EOS. Use a variety of ways to see and use the data.")}
-            <div className={styles.info__links}>
-              <a
-                href='https://app.santiment.net/'
-                className={styles.info__link}
-              >
-                {tr('products.sanbase', "Sanbase")}
-              </a>
-              <a
-                href={trStr(intl, 'links.sheets')}
-                className={styles.info__link}
-              >
-                {tr('products.sheets', "Sansheets")}
-              </a>
-              <a
-                href={trStr(intl, 'links.neuro')}
-                className={styles.info__link}
-              >
-                {tr('products.neuro', "Santiment API")}
-              </a>
-              <a
-                href='https://santiment.net/dashboards'
-                className={styles.info__link}
-              >
-                {tr('products.graphs', "Sangraphs")}
-              </a>
-            </div>
+            Using a combination of <b>on-chain, social media and development activity</b> data for 900+ cryptocurrencies, we’ve discovered new ways to add context to market moves, and created dozens of custom indicators, signals and strategies for the crypto industry.
           </div>
         </div>
       </div>

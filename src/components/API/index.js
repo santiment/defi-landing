@@ -26,15 +26,18 @@ const lines = code.split(`\n`).map((line, i) => {
 
 const description = {
   product: 'SanAPI',
-  title: tr('desc.api.title', "MVRV, Dev Activity, 125+ metrics"),
-  text: tr('desc.api.text', "Leverage visualizations and signals on Sanbase, or develop your own hybrid indicators from the vast suite of onchain, social, project and fundamental metrics."),
+  title: tr('desc.api.title', 'MVRV, Dev Activity, 125+ metrics'),
+  text: tr(
+    'desc.api.text',
+    'Leverage visualizations and signals on Sanbase, or develop your own hybrid indicators from the vast suite of onchain, social, project and fundamental metrics.'
+  ),
   links: [
     {
       href: 'https://app.santiment.net',
-      children: tr('desc.api.link', "Sanbase"),
+      children: tr('desc.api.link', 'Sanbase')
     },
-    { href: 'https://neuro.santiment.net/', children: 'SanAPI' },
-  ],
+    { href: 'https://neuro.santiment.net/', children: 'SanAPI' }
+  ]
 }
 
 export default injectIntl(({ intl }) => (
@@ -68,9 +71,30 @@ export default injectIntl(({ intl }) => (
             </div>
           </div>
         </Description>
-      </div>
-    </section>
 
-    <Testimonials />
+
+      </div>
+
+    </section>
+        <p className={styles.text}>
+          <b>But this was just the first step.</b> As part of our roadmap, we’re
+          on a mission to create the first decentralized platform for the
+          development - and valuation - of market signals, strategies and custom
+          industry alphas.
+        </p>
+
+        <p className={styles.text}>
+          <b>
+            We envision a place where anyone can cojoin in the creation of new
+            market strategies, or even claim a stake in their future
+            performance.
+          </b>
+        </p>
+
+        <p className={styles.text}>
+          To accomplish this, we are now developing a custom framework that
+          would allow anyone to discover gainful anomalies in market data,
+          backtest new signals and simulate trading strategies.
+        </p>
   </>
 ))
