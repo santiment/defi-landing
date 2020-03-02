@@ -112,4 +112,11 @@
   &:last-of-type {
     margin-bottom: 60px;
   }
+
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    &:first-of-type{
+    margin-top: 60px;
+
+    }
+  }
 }

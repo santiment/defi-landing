@@ -107,6 +107,7 @@
 
   @include responsive('tablet', 'phone', 'phone-xs') {
     flex-direction: column;
+    padding: 0;
   }
 }
 
@@ -116,7 +117,7 @@
     margin-right: 112px;
 
     @include responsive('tablet', 'phone', 'phone-xs') {
-      margin: 0 0 60px;
+      margin: 0 0 10px;
     }
   }
 
