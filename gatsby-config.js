@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `DEVCON | Santiment`,
-    description: `Santiment DEVCON5 page`,
+    title: `EthCC | Santiment`,
+    description: `Santiment EthCC page`,
     author: `Santiment Team`,
-    siteUrl: 'https://devcon.santiment.net',
+    siteUrl: 'https://ethcc.santiment.net',
   },
   plugins: [
     {
