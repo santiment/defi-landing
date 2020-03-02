@@ -15,13 +15,6 @@ export default injectIntl(({ intl }) => (
         learn more.
       </h4>
       <div class="pipedriveWebForms" data-pd-webforms="https://pipedrivewebforms.com/form/64fb993cbe5dadded638d587c7e8645b4144829"><script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script></div>
-      <iframe
-          title='Contact us'
-          height='680px'
-          width='100%'
-          frameBorder='0'
-          src='https://pipedrivewebforms.com/form/64fb993cbe5dadded638d587c7e8645b4144829'
-        />
     </div>
   </section>
 ))
