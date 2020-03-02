@@ -6,7 +6,7 @@
   max-width: none;
   color: $white;
   text-align: center;
-  background: url('./bg.svg') no-repeat, $cloud-burst;
+  background: $cloud-burst;
 
   @include responsive('desktop', 'laptop') {
     padding: 80px 0;

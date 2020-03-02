@@ -64,7 +64,7 @@ const Footer = ({ intl }) => {
           </a>
         </div>
         <div className={cx(styles.text, styles.rights)}>
-          {intl.formatMessage({ id: 'footer.rights' })}
+         © 2020 Santiment
         </div>
       </div>
     </footer>
