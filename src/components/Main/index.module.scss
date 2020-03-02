@@ -18,6 +18,8 @@
     $cloud-burst;
   position: relative;
   background-size: contain, cover;
+  display: flex;
+  flex-direction: column;
 
   @include responsive('tablet', 'phone', 'phone-xs') {
     height: auto;
@@ -69,18 +71,10 @@
 
 .btn {
   height: 40px !important;
-  margin: 30px 0 0;
-  width: 100%;
+  margin: 30px auto 0;
   justify-content: center;
   padding: 6px 25px !important;
 
-  @include responsive('desktop', 'laptop') {
-    margin: 0;
-    width: auto;
-    position: absolute !important;
-    right: 0;
-    top: 0;
-  }
 }
 
 .bottom {

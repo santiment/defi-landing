@@ -4,7 +4,7 @@ import Title from '../Title/Title'
 import styles from './index.module.scss'
 
 export default injectIntl(({ intl }) => (
-  <section className={styles.wrapper}>
+  <section className={styles.wrapper} id="contact">
     <div className={styles.container}>
       <Title small>Does that make your ears perk up? <br/>Then welcome aboard!</Title>
       <h4 className={styles.subtitle}>

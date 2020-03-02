@@ -40,48 +40,16 @@ export default injectIntl(({ intl }) => (
       <h1 className={styles.title}>Help us decentralize crypto market intelligence
 </h1>
       <h3 className={styles.subtitle}>Join our mission</h3>
-      <NotificationsContext.Consumer>
-        {({ add: addNot }) => (
-          <Mutation mutation={EMAIL_LOGIN_MUTATION}>
-            {(start, { loading }) => (
-              <form
-                className={styles.form}
-                onSubmit={e => {
-                  e.preventDefault()
-                  submitEmailEvent()
-                  start({
-                    variables: {
-                      email: e.currentTarget.email.value,
-                    },
-                  }).then(() => {
-                    addNot({
-                      type: 'success',
-                      title: 'Confirmation letter was sent to your email!',
-                    })
-                  })
-                }}
-              >
-                <Input
-                  className={styles.input}
-                  type='email'
-                  required
-                  placeholder={trStr(intl, 'discount.placeholder')}
-                  name='email'
-                  onFocus={focusEmailEvent}
-                />
+
                 <Button
                   className={styles.btn}
                   variant='fill'
                   accent='positive'
-                  isLoading={loading}
+                  as='a'
+                  href='#contact'
                 >
                   Get started
                 </Button>
-              </form>
-            )}
-          </Mutation>
-        )}
-      </NotificationsContext.Consumer>
     </div>
     <div className={styles.bottom}>
       <div id='products' className={styles.infos}>
