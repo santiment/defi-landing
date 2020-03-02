@@ -37,9 +37,9 @@ export default injectIntl(({ intl }) => (
     <div className={styles.top}>
       <Tooltip {...maker} />
       <Tooltip {...eth} />
-      <h1 className={styles.title}>Join our mission
+      <h1 className={styles.title}>Help us decentralize crypto market intelligence
 </h1>
-      <h3 className={styles.subtitle}>Help us decentralize crypto market intelligence</h3>
+      <h3 className={styles.subtitle}>Join our mission</h3>
       <NotificationsContext.Consumer>
         {({ add: addNot }) => (
           <Mutation mutation={EMAIL_LOGIN_MUTATION}>

@@ -10,8 +10,8 @@
 }
 
 .container {
-  background: var(--white);
-  border: 1px solid var(--porcelain);
+  background: var(--mirage);
+  border: 1px solid var(--mirage);
   border-radius: $border-radius;
   padding: 24px;
   box-shadow: 0 4px 12px 0 rgba(24, 27, 43, 0.04);
@@ -64,7 +64,7 @@
     max-width: 363px;
   }
   &:hover {
-    background: var(--athens);
+    background: var(--rhino);
     border-radius: $border-radius;
   }
 
@@ -104,7 +104,7 @@
   }
 
   &__title {
-    color: var(--rhino);
+    color: var(--athens );
     letter-spacing: -0.02em;
 
     @include text('body-1', 'm');
@@ -138,7 +138,6 @@
 }
 
 .opened {
-  background: var(--green-light);
   border-radius: 2px;
   fill: var(--jungle-green);
 }

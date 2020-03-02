@@ -29,14 +29,14 @@
 
 .title {
   font-weight: bold;
-  font-size: 62px;
-  line-height: 66px;
+  font-size: 30px;
+  line-height: 38px;
   text-align: center;
   margin: 0 0 24px;
 }
 
 .subtitle {
-  @include text('body-1');
+  @include text('h4');
   color: $mystic;
   max-width: 501px;
   text-align: center;
