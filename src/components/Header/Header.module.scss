@@ -49,6 +49,8 @@
 }
 
 .right {
+  display: flex;
+  align-items: center;
   @include responsive('tablet', 'phone', 'phone-xs') {
     display: none;
   }
