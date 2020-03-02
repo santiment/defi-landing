@@ -6,13 +6,12 @@ import styles from './index.module.scss'
 export default injectIntl(({ intl }) => (
   <section className={styles.wrapper}>
     <div className={styles.container}>
-      <Title small>Does that make your ears perk up? Then welcome aboard!</Title>
+      <Title small>Does that make your ears perk up? <br/>Then welcome aboard!</Title>
       <h4 className={styles.subtitle}>
-        We are currently accepting new contributors and collaborators to join
-        the development process.
-        If you’d like to help us build the first
-        decentralized platform for crypto market intelligence, sign up below to
-        learn more.
+        We are currently accepting new contributors and collaborators to join us on this journey.
+<br/>
+<br/>
+If you want to help us build the first decentralized platform for crypto market intelligence, sign up below to learn more!
       </h4>
       <iframe
           title='Contact us'

@@ -19,13 +19,13 @@
 }
 
 .subtitle {
-  max-width: 515px;
-  margin: 32px auto 40px;
+  max-width: 450px;
+  margin: 42px auto 10px;
   font-weight: 400;
   color: $casper;
 
   @include responsive('desktop', 'laptop') {
-    margin: 16px auto 32px;
+    margin: 26px auto 12px;
     color: $white;
   }
 }
