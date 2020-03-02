@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `EthCC | Santiment`,
-    description: `Santiment EthCC page`,
+    description: `Help us decentralize crypto market intelligence`,
     author: `Santiment Team`,
     siteUrl: 'https://ethcc.santiment.net',
   },
@@ -53,8 +53,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#5275FF`,
-        theme_color: `#5275FF`,
+        background_color: `#14C393`,
+        theme_color: `#14C393`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
