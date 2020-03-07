@@ -15,7 +15,7 @@ const Header = ({ isAccountPage, intl }) => {
           <Link className={styles.logo} to='/'>
             <img alt='Santiment' src={santimentSvg} />
           </Link>
-          <img src={logo} alt='EthCC' />
+          {/* <img src={logo} alt='EthCC' /> */}
         </div>
         <div className={styles.right}>
           <div className={styles.link}>
