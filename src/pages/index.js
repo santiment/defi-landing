@@ -8,7 +8,7 @@ import Discount from '../components/Discount'
 
 const IndexPage = ({ intl }) => (
   <Layout>
-    <SEO title='EthCC | Santiment' />
+    <SEO title='Defi | Santiment' />
     <Main />
     <Graphs />
     <Discount />
